@@ -128,12 +128,22 @@ font-weight: bold;}
 .section-title {display: flex;
 width: 60%;
 margin:0 auto 0 auto;
-justify-content: center;}
+justify-content: center;
+line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;}
 
 .section-subtitle {display: flex;
 width:60%;
 margin:20px auto 0 auto;
-justify-content: center;}
+justify-content: center;
+line-height: 34px;
+font-size: 24px;
+font-weight: normal;
+margin-top:0;
+margin-bottom: 0;}
 
 .table{display: flex;
  flex-wrap: wrap;
@@ -159,17 +169,7 @@ h4 {line-height: 1.15;
   font-weight: bold;
 }
 
-.section-title {line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
-  margin-top:0;
-  margin-bottom: 0;}
 
-.section-subtitle {line-height: 34px;
-font-size: 24px;
-font-weight: normal;
-margin-top:0;
-margin-bottom: 0;}
 
 .feynman { min-height: 890px;
   position: relative;
@@ -244,26 +244,28 @@ position:relative; }
 .section-title_theme_dark {display: flex;
   width: 60%;
   margin:0 auto 0 auto;
-  justify-content: center;}
-  
-  .section-subtitle_theme_dark {display: flex;
-  width: 60%;
-  margin:20px auto 0 auto;
-  justify-content: center;}
-
-.section-title_theme_dark {line-height: 1.15;
+  justify-content: center;
+  line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
   margin-top:0;
   margin-bottom: 0;
+  color: white;
+}
+  
+  .section-subtitle_theme_dark {display: flex;
+  width: 60%;
+  margin:20px auto 0 auto;
+  justify-content: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-top:0;
+  margin-bottom: 0;
   color: white;}
 
-.section-subtitle_theme_dark {line-height: 34px;
-font-size: 24px;
-font-weight: normal;
-margin-top:0;
-margin-bottom: 0;
-color: white;} 
+
+
 
 .table_theme_dark{display: flex;
   flex-wrap: wrap;
