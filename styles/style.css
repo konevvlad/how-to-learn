@@ -29,7 +29,7 @@ p, h1, h2, h3, h4, h5, h6, h7 {
   z-index: 2;}
 
 .logo_place_header {width: 183px;
-  height: 32px ;
+  height: 32px;
   margin-top: 30px;
   margin-left: 64px; 
   position:absolute;
@@ -41,7 +41,7 @@ p, h1, h2, h3, h4, h5, h6, h7 {
   width: 730px;
   }
 
-h1 {font-size: 102px; 
+h1 {font-size: 102px;
   line-height: 96px;
   font-weight: bold}
 
@@ -94,7 +94,7 @@ font-weight: normal;}
 .description__two-columns {width: 80%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between ;
+  justify-content: space-between;
 
   }
 
@@ -201,14 +201,15 @@ line-height: 51px;
 }
 
 .feynman__link {position:absolute;
-  top:50%;
-  bottom: 50%;
-right: 48px;
-line-height: 51px;
-font-size: 36px;
-font-weight: normal;
-text-decoration: none;
-color:#2f80ed}
+    top:50%;
+    bottom: 50%;
+    right: 48px;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+    text-decoration: none;
+    color:#2f80ed;
+    z-index: 2}
 
 .feynman__image {position: absolute;
 left: 0;
