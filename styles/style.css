@@ -243,12 +243,12 @@ position:relative; }
 
 .section-title_theme_dark {display: flex;
   width: 60%;
-  margin:0 auto 0 auto ;
+  margin:0 auto 0 auto;
   justify-content: center;}
   
   .section-subtitle_theme_dark {display: flex;
-  width:60%;
-  margin:20px auto 0 auto ;
+  width: 60%;
+  margin:20px auto 0 auto;
   justify-content: center;}
 
 .section-title_theme_dark {line-height: 1.15;
@@ -287,12 +287,12 @@ min-width:90%;
 flex-basis: 711px;
 justify-content: space-between;
 position: relative;
-margin: 60px auto 40px auto  ;}
+margin: 60px auto 40px auto;}
 
 .footer__columns_content_copyright {width: 50%}
 
 .logo_place_footer {width: 183px;
-  height: 32px ;
+  height: 32px;
   
   position:absolute;
   top: 0;
