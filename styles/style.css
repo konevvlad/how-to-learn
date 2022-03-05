@@ -18,7 +18,7 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  z-index: -1;
+  
   /* выше установили ограничения для секции */
   }
 
@@ -47,6 +47,7 @@
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
+  z-index: 3;
   }
 
 
@@ -60,6 +61,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  z-index: 3;
   }
 
 
@@ -76,7 +78,7 @@
   bottom: 0;
   right: 0;
   object-fit: cover;
-  }
+  z-index: 2;}
 
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -87,7 +89,7 @@
   background-color: #2f80ed;
   height: 568px;
   width: 568px;
-  z-index: -1;
+  z-index: ;
 }
 
 
@@ -269,7 +271,7 @@
 
 .feynman__subtitle {
   margin: 0;
-  padding: 0; 
+  padding: 0;
   text-align: center;
   line-height: 51px;
   font-size: 36px;
