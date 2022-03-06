@@ -117,8 +117,12 @@
 
 
 .two-columns__main-text {
+  display: flex;
   width: 80%;
   min-width: 784px;
+  justify-content: space-between;
+  min-height: 366px; /* получается расстояние 30px между блоками, без отступа у нижнего параграфа  */
+  flex-direction: column;
 }
 
 .two-columns__paragraph {
@@ -127,7 +131,6 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin-bottom: 30px;
 }
 
 
@@ -305,6 +308,7 @@
   background-color: #1f1f1f;
   overflow: hidden;
   position:relative;
+  z-index: -1;
 }
 
 .kaufman__triangle {
@@ -315,7 +319,8 @@
   top: 0;
   right:-210px;
   background-image: url('../images/kaufman-triangle.svg');
-}
+  z-index: -1;
+} 
 
 .footer {
   display: flex;
