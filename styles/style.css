@@ -121,7 +121,7 @@
   width: 80%;
   min-width: 784px;
   justify-content: space-between;
-  min-height: 366px; /* получается расстояние 30px между блоками, без отступа у нижнего параграфа  */
+  gap: 30px; /* получается расстояние 30px между блоками, без отступа у нижнего параграфа  */
   flex-direction: column;
 }
 
@@ -331,7 +331,6 @@
 .footer__columns {
   display: flex;
   min-width:90%;
-  flex-basis: 711px;
   justify-content: space-between;
   position: relative;
   margin: 60px auto 40px auto;
@@ -339,6 +338,7 @@
 
 .footer__column_content_copyright {
   display: flex;
+  flex-basis: 711px;
   flex-direction: column;
   justify-content: space-between;
   width: 50%;
