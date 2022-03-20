@@ -3,6 +3,12 @@
     padding: 0;
     text-decoration: none;
     color: white;
+    opacity: 1;
+    transition: opacity .5s linear;
   }
+
+.footer__column-link:hover {
+  opacity: 0.5;
+}
   
   
